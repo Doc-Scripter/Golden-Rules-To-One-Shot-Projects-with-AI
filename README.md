@@ -1,0 +1,1 @@
+# Golden-Rules-To-One-Shot-Projects-with-AI
