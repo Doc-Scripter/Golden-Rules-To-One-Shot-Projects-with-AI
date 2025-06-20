@@ -80,20 +80,44 @@ create a basic project structure with scalability as the core concern.
 - Regular dependency updates
 
 # Documentation
+- **Comprehensive README:** Ensure the `README.md` is always up-to-date, providing clear instructions for setup, usage, and contribution.
+- **Comments:** Use comments to explain complex logic, non-obvious decisions, or workarounds.No inline comments,keep the comments on top of the function and keep it short
+- **API Documentation:** Document all public APIs, functions, and classes with clear descriptions, parameters, and return values.
+- **Design Documents:** For larger features or architectural changes, consider creating separate design documents.
 
 # Code Style and Conventions
+- **Consistency is Key:** Adhere to a consistent coding style throughout the entire project. (e.g. how you comment,how you structure you code), this will help the AI understand the codebase and make better decisions.
+- **Linter and Formatter:** Utilize automated tools like linters (ESLint, Pylint) and formatters (Prettier, Black) to enforce style guidelines and catch common errors.
 
-## Naming Conventions   
+## Naming Conventions
+- **Descriptive Names:** Use clear, descriptive names for variables, functions, classes, and files that indicate their purpose.
+- **Case Conventions:** Follow established case conventions for your language (e.g., `camelCase` for JavaScript variables, `snake_case` for Python variables, `PascalCase` for class names).
+- **Avoid Abbreviations:** Unless widely understood, avoid excessive abbreviations.
 
 ## Comments
+- **Why, Not What:** Comments should explain *why* a piece of code does something, not just *what* it does (which should be evident from the code itself).
+- **Keep them Updated:** Outdated comments are worse than no comments. Ensure comments are updated when code changes.
+- **TODOs and FIXMEs:** Use `TODO` comments for planned work and `FIXME` for known issues that need addressing.
 
 ## Modularity
-- maintain sepration of concerns ,Keep Code Files Short: Limit your code files to under 500 lines.
+- **Separation of Concerns:** Design components to have distinct responsibilities. Each module, class, or function should do one thing and do it well.
+- **Loose Coupling, High Cohesion:** Minimize dependencies between modules (loose coupling) and ensure elements within a module are functionally related (high cohesion).
+- **Keep Code Files Short:** Limit your code files to a reasonable size, ideally under 500 lines, to improve readability and maintainability.
+
 # Project-Specific Rules
+- **Technology Stack:** Clearly define and adhere to the chosen technology stack and versions.
+- **Dependency Management:** Establish clear guidelines for adding, updating, and managing project dependencies.
+- **Configuration Management:** Define how configuration settings are managed (e.g., environment variables, config files) and accessed.
 
 ## Error Handling
+- **Graceful Degradation:** Implement error handling that allows the application to fail gracefully, providing informative messages to users or logs.
+- **Centralized Error Logging:** Use a consistent and centralized mechanism for logging errors, including relevant context (stack traces, request details).
+- **Specific Exceptions:** Use specific exception types rather than generic ones to make error handling more precise.
 
 ## Code Review
+- **Mandatory Reviews:** All code changes should undergo a review process by at least one other team member.
+- **Checklist:** Use a code review checklist to ensure consistency and cover key areas like functionality, style, tests, and documentation.
+- **Constructive Feedback:** Provide constructive and actionable feedback during code reviews, focusing on the code rather than the person.
 
 
 By adhering to these principles, the AI will operate with a heightened sense of responsibility and foresight, leading to more accurate, robust, and successful project outcomes with minimal corrective intervention.
