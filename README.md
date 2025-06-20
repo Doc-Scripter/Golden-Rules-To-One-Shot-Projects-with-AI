@@ -1,11 +1,11 @@
 # Golden Rules To One-Shot Projects with AI
-This guide outlines the critical considerations and steps for AI agents to ensure high accuracy, effective debugging, seamless integration, and overall project success. The goal is to empower the AI with a deep understanding of the consequences and necessary actions for top-tier performance, minimizing the need for subsequent correction prompts.
-## Getting this started
-- There are different methods to setup rules for ai to follow in a project ,please check the one suited for your coiding AI :
+This guide empowers AI agents to achieve high accuracy, effective debugging, and seamless integration, ensuring project success with minimal correction prompts.
+## Getting started
+- There are different methods to setup rules for AI agents to follow in a project , use the one suited for your coding AI :
 ### Qodo
 Go to the projects settings and click preferences then add the rules 
 ### Github Copilot
-- create a .github folder 
+- enter this in the terminal .
 ```bash
 mkdir .github
 cd .github
@@ -20,10 +20,16 @@ touch projects_rules.md
 ```
 OR 
 - go to the settings in the top right and click rules,then select create `projects_rules.md`
-### Cursor
+### Cursor AI
+- enter this in the terminal .
+```bash
+mkdir .cursor
+cd .cursor
+touch cursor_rules.md
+```
 
 ## Quick Start
-Checkout [template](template.md) for instructions already tailored for high accuracy,simple copy and paste in the rules file youve created.
+Checkout [template](template.md) for a base template , copy and paste in the rules file you created.
 
 ## 1. Project Setup
 ### Define clear project scope and requirements 
